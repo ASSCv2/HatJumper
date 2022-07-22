@@ -1,6 +1,6 @@
 # Hat Jumper
 
-Hat Jumper is a AAA Parkour game made with Unity!
+Hat Jumper is a Parkour game made with Unity!
 
 # Ideas
 
