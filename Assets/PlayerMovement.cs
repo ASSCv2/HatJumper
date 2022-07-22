@@ -38,9 +38,14 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(1000 * Time.deltaTime, 0, 0);
         }
 
-        if (Input.GetKey("space"))
+        if (Input.GetKeyDown("space"))
         {
             rb.AddForce(0, 1000 * Time.deltaTime, 0);
         }
+
+       # if (Input.GetKey("shift"))
+       # {
+       #     transform.localScale = new Vector3 (x, y, z);
+       # }
     }
 }
