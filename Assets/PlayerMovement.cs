@@ -41,11 +41,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey("space"))
         {
             rb.AddForce(0, 1000 * Time.deltaTime, 0);
+            transform.localScale = new Vector3 (1, 1, 1);
         }
 
-       // if (Input.GetKey("shift"))
-       // {
-    //     transform.localScale = new Vector3 (x, y, z);
-       // }
+        if (Input.GetKey("c"))
+        {
+            transform.localScale = new Vector3 (1, 0, 1);
+        }
     }
 }
